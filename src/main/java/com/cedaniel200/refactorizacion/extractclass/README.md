@@ -1,16 +1,15 @@
 # Extract Class
 
-Cuando una clase hace el trabajo de dos, resulta torpe.
-En su lugar, cree una nueva clase y coloque los campos
-y métodos responsables de la funcionalidad relevante 
-en ella.
+## Qué es
+
+Cuando una clase hace el trabajo de dos, resulta torpe. En su lugar, se crea una nueva clase y se
+colocan en ella los campos y métodos responsables de la funcionalidad relevante.
 
 ## Ejercicio
 
-Crea una clase experta en convertir cada unidad termométrica
-a otra, es decir, debes tener una clase Celsius y otra Fahrenheit
-e invocarla desde el respectivo método de conversión en 
-la clase temperatura.
+Crea una clase experta en convertir cada unidad termométrica a otra: debes tener una clase `Celsius`
+y otra `Fahrenheit`, e invocarlas desde el respectivo método de conversión de la clase `Termometro`.
 
-### Notas: 
-1)  Despues debes seguir con Encapsulated Fields
+## Siguiente paso
+
+[Encapsulate Fields](../encapsulatedfields/README.md)

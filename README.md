@@ -24,11 +24,11 @@ avanza en orden: el resultado de un ejercicio es el punto de partida del siguien
 
 | Paso | Técnica | Paquete | Ejercicio |
 |---|---|---|---|
-| 1 | Rename | `rename` | Cambiar nombres de clases, métodos y variables por otros que se entiendan |
-| 2 | Extract Function | `extractfunction` | Dividir `convertirGradosSegunTipo` en dos métodos con una responsabilidad cada uno |
-| 3 | Inline | `inline` | Eliminar variables temporales que solo guardan un valor para retornarlo |
-| 4 | Extract Class | `extractclass` | Mover cada conversión a una clase `Celsius` y `Fahrenheit` |
-| 5 | Encapsulate Fields | `encapsulatedfields` | Ajustar los modificadores de acceso a lo que realmente necesita cada clase |
+| 1 | Rename | [`rename`](src/main/java/com/cedaniel200/refactorizacion/rename/README.md) | Cambiar nombres de clases, métodos y variables por otros que se entiendan |
+| 2 | Extract Function | [`extractfunction`](src/main/java/com/cedaniel200/refactorizacion/extractfunction/README.md) | Dividir `convertirGradosSegunTipo` en dos métodos con una responsabilidad cada uno |
+| 3 | Inline | [`inline`](src/main/java/com/cedaniel200/refactorizacion/inline/README.md) | Eliminar variables temporales que solo guardan un valor para retornarlo |
+| 4 | Extract Class | [`extractclass`](src/main/java/com/cedaniel200/refactorizacion/extractclass/README.md) | Mover cada conversión a una clase `Celsius` y `Fahrenheit` |
+| 5 | Encapsulate Fields | [`encapsulatedfields`](src/main/java/com/cedaniel200/refactorizacion/encapsulatedfields/README.md) | Ajustar los modificadores de acceso a lo que realmente necesita cada clase |
 
 Cada paquete trae su propio `README.md` con el enunciado y una clase `TemperaturaTest` con las
 pruebas que deben seguir en verde después de cada paso. El paquete `solucion` tiene la versión final
