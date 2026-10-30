@@ -26,4 +26,14 @@ public class TemperaturaTest {
     public void ceroGradosFharenheitATreintaYDosCelsius(){
         assertEquals(0, termometro.convertirFahrenheitACelsius(32));
     }
+
+    @Test
+    public void cienGradosCelsiusADoscientosDoceFahrenheit(){
+        assertEquals(212, termometro.convertirCelsiusAFahrenheit(100));
+    }
+
+    @Test
+    public void doscientosDoceGradosFahrenheitACienCelsius(){
+        assertEquals(100, termometro.convertirFahrenheitACelsius(212));
+    }
 }
