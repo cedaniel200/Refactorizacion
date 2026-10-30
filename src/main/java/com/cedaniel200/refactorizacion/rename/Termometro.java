@@ -16,10 +16,10 @@ public class Termometro {
         int temp = -100;
         if(ti == 1){
             // de c a f
-            temp = (te * (9/5)) + 32;
+            temp = (te * 9 / 5) + 32;
         }else if(ti == 2){
             // de f a c
-            temp = (te - 32) * (5/9);
+            temp = (te - 32) * 5 / 9;
         }
         return temp;
     }

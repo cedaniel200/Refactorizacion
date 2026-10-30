@@ -13,11 +13,11 @@ public class Termometro {
     }
 
     public int convertirFahrenheitACelsius(int temperaturaAConvertir) {
-        return (temperaturaAConvertir - 32) * (5 / 9);
+        return (temperaturaAConvertir - 32) * 5 / 9;
     }
 
     public int convertirCelsiusAFahrenheit(int temperaturaAConvertir) {
-        return (temperaturaAConvertir * (9/5)) + 32;
+        return (temperaturaAConvertir * 9 / 5) + 32;
     }
 
 }

@@ -17,9 +17,9 @@ public class Termometro {
     public int convertirGradosSegunTipo(int tipoConversion, int temperaturaAConvertir){
         int temperaturaResultante = -100;
         if(tipoConversion == CELSIUS_A_FAHRENHEIT){
-            temperaturaResultante = (temperaturaAConvertir * (9/5)) + 32;
+            temperaturaResultante = (temperaturaAConvertir * 9 / 5) + 32;
         }else if(tipoConversion == FAHRENHEIT_A_CELSIUS){
-            temperaturaResultante = (temperaturaAConvertir - 32) * (5/9);
+            temperaturaResultante = (temperaturaAConvertir - 32) * 5 / 9;
         }
         return temperaturaResultante;
     }
