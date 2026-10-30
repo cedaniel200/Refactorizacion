@@ -46,7 +46,7 @@ src/main/java/com/cedaniel200/refactorizacion
 └── solucion/               # resultado de aplicar los cinco pasos
 
 src/test/java/com/cedaniel200/refactorizacion
-└── <paquete>/TemperaturaTest.java   # una prueba por paquete: 0 °C → 32 °F y 32 °F → 0 °C
+└── <paquete>/TemperaturaTest.java   # cuatro pruebas por paquete: 0 °C ↔ 32 °F y 100 °C ↔ 212 °F
 ```
 
 En cada paquete:
@@ -62,7 +62,7 @@ En cada paquete:
 Requiere JDK 21; el wrapper descarga Gradle 9.6.1.
 
 ```bash
-./gradlew test          # ejecuta las 12 pruebas
+./gradlew test          # ejecuta las 24 pruebas
 ./gradlew test --tests '*rename*'   # solo las de un paquete
 ```
 
