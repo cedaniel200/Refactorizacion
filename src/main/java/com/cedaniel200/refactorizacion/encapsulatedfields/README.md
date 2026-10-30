@@ -1,15 +1,15 @@
-# Encapsulated Fields
+# Encapsulate Fields
 
-Consiste en cambiar los modificadores de acceso que se 
-requieran. Por ejemplo se cambian métodos públicos a 
-privados porque solamente se acceden desde la misma clase.
+## Qué es
+
+Consiste en cambiar los modificadores de acceso que se requieran: por ejemplo, cambiar métodos
+públicos a privados porque solamente se acceden desde la misma clase.
 
 ## Ejercicio
 
-Presta mucho cuidado a nuestras variables de clase
-si te fijas bien solo se usan en esta clase cambia el 
-modificador de acceso por el más conveniente.
+Presta mucho cuidado a las variables de clase: si te fijas bien, solo se usan en esta clase, así que
+cambia el modificador de acceso por el más conveniente.
 
-### Notas: 
-Puedes ver todos los cambios realizados en el
-paquete solución
+## Al terminar
+
+Compara tu resultado con el paquete [`solucion`](../solucion/), que aplica los cinco pasos del taller.
